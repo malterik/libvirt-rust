@@ -30,6 +30,7 @@ use connect::Connect;
 use domain_snapshot::DomainSnapshot;
 use error::Error;
 use stream::Stream;
+use std::convert::TryInto;
 
 pub mod sys {
     extern crate libc;
